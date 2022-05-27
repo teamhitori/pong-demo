@@ -5,6 +5,6 @@
     "screenRatio": "1",
     "gameThumbnail": "thumb-2.jpg",
     "webPort": "8080",
-    "staticDir": "client",
+    "staticDir": "web",
     "remoteHost": "https://frakas-pong-demo.azurewebsites.net"
 }
