@@ -1,0 +1,8 @@
+docker run -it `
+  -p 1000:8080 `
+  -p 1001:8081 `
+  -v "/c/repo/mine/pong_demo/:/src/" `
+  -w /src `
+  --entrypoint /bin/bash node:latest
+
+  # C:\repo\mine\pong_demo\setup.azcli

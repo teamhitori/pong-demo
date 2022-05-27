@@ -1,0 +1,4 @@
+copy-item C:\repo\mine\frakas\build\* -Destination .\node_modules\frakas -Recurse -Force
+copy-item C:\repo\mine\frakas\projects\api\build\* -Destination .\node_modules\frakas -Recurse -Force
+
+browserify build/index.js -p esmify -o build/bundle.js
