@@ -9,7 +9,7 @@ const configRaw = fs.readFileSync('frakas.json');
 const config = JSON.parse(configRaw);
 const hostName = process.env.HOST_NAME || "localhost"
 const gamePrimaryName = process.env.GAME_PRIMARY_NAME || "";
-const clientDir = "client";
+const clientDir = "web";
 const serverDir = "server";
 
 console.log("frakas.json: ", config)
